@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "featured_offers",
+  "info": {
+    "singularName": "featured-offer",
+    "pluralName": "featured-offers",
+    "displayName": "Featured Offer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "offerTitle": {
+      "type": "string"
+    },
+    "redemptionUrl": {
+      "type": "string"
+    },
+    "promoCode": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "logo": {
+      "type": "string"
+    },
+    "expirationDate": {
+      "type": "date"
+    },
+    "terms": {
+      "type": "text"
+    }
+  }
+}
